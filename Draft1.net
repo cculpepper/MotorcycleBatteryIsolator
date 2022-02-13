@@ -1,0 +1,27 @@
+* Z:\home\chris\Code\MotorcycleBatteryIsolator\Draft1.asc
+V1 N006 0 10
+V2 N007 N009 14
+R1 N001 N006 1
+R2 N001 N007 1
+M1 N008 N002 0 0 IRFZ46NS
+D1 N009 N011 1N4148
+R3 N011 0 20
+M2 N008 N002 N009 N009 IRFZ46NS
+V3 N003 N004 PULSE(0 1 .5 .01 .01 .5)
+S1 N005 N002 N003 N004 MYSW
+R5 N002 0 47e3
+R7 N002 N009 47e3
+C2 N005 N002 22µ V=50 Irms=130m Rser=0.721604 Lser=3.65781n mfg="Würth Elektronik" pn="860240673003 WCAP-AT1H 6,3x11" type="Al electrolytic"
+M3 N002 N005 N001 N001 Si4433DY
+R4 N001 N005 47e3
+M4 N010 N002 0 0 IRFZ46NS
+M5 N010 N002 N009 N009 IRFZ46NS
+.model D D
+.lib C:\users\chris\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\chris\Documents\LTspiceXVII\lib\cmp\standard.mos
+.model MYSW SW(Ron=1 Roff=1Meg Vt=.5 Vh=-.4)
+.tran 0 120 0
+.backanno
+.end
