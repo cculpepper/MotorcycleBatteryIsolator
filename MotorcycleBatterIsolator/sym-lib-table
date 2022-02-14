@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "MIC5014")(type "KiCad")(uri "${KIPRJMOD}/MIC5014.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "Legacy")(uri "${KIPRJMOD}/RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.lib")(options "")(descr ""))
+)
