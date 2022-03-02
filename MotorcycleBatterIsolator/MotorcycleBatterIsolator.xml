@@ -1,0 +1,2246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/chris/Code/MotorcycleBatteryIsolator/MotorcycleBatterIsolator/MotorcycleBatterIsolator.kicad_sch</source>
+    <date>Tue 22 Feb 2022 12:02:11 AM EST</date>
+    <tool>Eeschema (6.99.0-874-g7b84e0a7d9-dirty)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MotorcycleBatterIsolator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>Buzzer_Beeper:MagneticBuzzer_ProSignal_ABT-410-RC</footprint>
+      <fields>
+        <field name="LCSCNotJLC">C530340</field>
+      </fields>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="LCSCNotJLC" value="C530340"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>384452b4-0d22-4991-8b78-78712f441006</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C15849</field>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15849"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60807725-bee8-4552-8652-172befee932e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C45783</field>
+        <field name="LCSC Part">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C45783"/>
+      <property name="LCSC Part" value="C45783"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0bc9e06-ee2a-4c92-a90b-3c87b6f8b1b0</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C96446</field>
+        <field name="LCSC Part">C96446</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C96446"/>
+      <property name="LCSC Part" value="C96446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a14986e-04b7-49f3-8ef3-fd07c24add28</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C96446</field>
+        <field name="LCSC Part">C96446</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C96446"/>
+      <property name="LCSC Part" value="C96446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>852491f9-0f3f-4f35-afd2-239f1a61a78f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C15849</field>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15849"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b400e724-24f0-47dd-96c5-358afc32fd77</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f339103-3bd2-431a-904a-cd82bee72d34</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1669</field>
+        <field name="LCSC Part">C1669</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1669"/>
+      <property name="LCSC Part" value="C1669"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdcfc834-24bd-460e-8a09-1eb9f599e006</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C15849</field>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15849"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a29b9553-016c-46ff-8270-d049454f37d7</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9435226f-441d-4fac-9330-854c3e5bf50d</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>4.7pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1669</field>
+        <field name="LCSC Part">C1669</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1669"/>
+      <property name="LCSC Part" value="C1669"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dbf65a7-ecf9-4c79-b1da-20c1af18358c</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40b553fd-d155-4929-93d6-c132a6918fc8</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C15849</field>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15849"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ac19748-68f7-4b70-92f6-aa4ba18d4abd</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa576db8-6b8f-4d09-9a28-deb83c68b576</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52b05b21-067b-47ca-86a0-bf422b03df60</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C15849</field>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15849"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1b9ab80-e4dd-4a56-9e77-2d056a79bbbd</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C96446</field>
+        <field name="LCSC Part">C96446</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C96446"/>
+      <property name="LCSC Part" value="C96446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c54d8af-75e8-45d8-acc9-7611eb9ef5fb</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>900c3cad-a685-4cbe-b218-4b1be7db3820</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>525b824e-d109-49f5-bd99-41f340ccda2d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C96446</field>
+        <field name="LCSC Part">C96446</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C96446"/>
+      <property name="LCSC Part" value="C96446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd576c97-6cbf-4c3b-88e9-859554953e07</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2863878-c417-4b6b-8d50-26e42ce3cb8c</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85d249a5-3602-4fb9-b34d-020fb512bd93</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09fecfd1-d9ec-4c4e-997f-4417f5e30e17</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C22452</field>
+        <field name="LCSC Part">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="LCSC" value="C22452"/>
+      <property name="LCSC Part" value="C22452"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>102a8ca4-cf9e-46e9-ae1c-2391c6d34114</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C22452</field>
+        <field name="LCSC Part">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="LCSC" value="C22452"/>
+      <property name="LCSC Part" value="C22452"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d064c7c-9c76-4f6e-93a6-f2d28c40da09</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C22452</field>
+        <field name="LCSC Part">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="LCSC" value="C22452"/>
+      <property name="LCSC Part" value="C22452"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a175eaff-b06f-4238-b9e2-6ec612efda70</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C2286</field>
+        <field name="LCSC Part">C2286</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C2286"/>
+      <property name="LCSC Part" value="C2286"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d9de58b-6a59-450f-95db-06826ceba1bd</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C22452</field>
+        <field name="LCSC Part">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="LCSC" value="C22452"/>
+      <property name="LCSC Part" value="C22452"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6488c2a-e009-4b0f-91f1-eb21b5b67697</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C22452</field>
+        <field name="LCSC Part">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="LCSC" value="C22452"/>
+      <property name="LCSC Part" value="C22452"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85fba202-e2cd-472f-98d2-22849ff65d08</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C2286</field>
+        <field name="LCSC Part">C2286</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C2286"/>
+      <property name="LCSC Part" value="C2286"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fd45fb2-ea8f-42ec-bae2-7e5f707bd5af</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C22452</field>
+        <field name="LCSC Part">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="LCSC" value="C22452"/>
+      <property name="LCSC Part" value="C22452"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1c2b4bd-f36b-4266-a0f1-102345332292</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C2286</field>
+        <field name="LCSC Part">C2286</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C2286"/>
+      <property name="LCSC Part" value="C2286"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07350cb8-0d61-4dda-9ce2-438906bf7d62</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>D_Zener</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <fields>
+        <field name="LCSC">C8056</field>
+        <field name="LCSC Part">C8056</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C8056"/>
+      <property name="LCSC Part" value="C8056"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>145f3b94-ddc5-4e6f-8926-3b11a3ec7a26</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>D_Zener</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <fields>
+        <field name="LCSC">C8056</field>
+        <field name="LCSC Part">C8056</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C8056"/>
+      <property name="LCSC Part" value="C8056"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c5930b8-98c4-4d9c-b09d-e6e608f8cb0a</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>H</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0eac2007-b376-4ade-a50f-0cd156162072</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>H</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7853cb72-0ee0-4880-8e0a-294c741c247f</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>H</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f598054-f940-44cd-b9c1-aa8ec369a401</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>H</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d38df5d-d122-45f4-94f1-8fe23c6bcd85</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>H</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0331f4b3-662f-4617-a16e-15f795ccd6dd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>AndersonPowerPole:APP_2x2</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36bc3000-461d-494a-b65c-bd9facd660cc</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Micro_SD_Card_Det</value>
+      <footprint>Connector_Card:microSD_HC_Molex_104031-0811</footprint>
+      <datasheet>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</datasheet>
+      <fields>
+        <field name="LCSC">C585350</field>
+        <field name="LCSC Part">C585350</field>
+      </fields>
+      <libsource lib="Connector" part="Micro_SD_Card_Det" description="Micro SD Card Socket with card detection pins"/>
+      <property name="LCSC" value="C585350"/>
+      <property name="LCSC Part" value="C585350"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>727a7955-1cca-476b-94f8-81a5d74a9fb0</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8bdb060-48e7-4a25-b47c-edbc2ce901dd</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04</value>
+      <footprint>AndersonPowerPole:APP_2x2</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dcedb36-36bd-4f02-9eff-19e3d382827b</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC">C165948</field>
+        <field name="LCSC Part">C165948</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="LCSC" value="C165948"/>
+      <property name="LCSC Part" value="C165948"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95178e84-4f61-4e31-9efc-845256dc58fb</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f23615e-d2cd-4c33-99a4-950f6b81172e</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NMOS_GDS</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C127863</field>
+        <field name="LCSC Part">C127863</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="LCSC" value="C127863"/>
+      <property name="LCSC Part" value="C127863"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c6a8975-03d4-4836-94cc-62c8765d5845</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NMOS_GDS</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C127863</field>
+        <field name="LCSC Part">C127863</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="LCSC" value="C127863"/>
+      <property name="LCSC Part" value="C127863"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dc92ef9-68ed-439a-b115-f95b89f4e0ef</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NMOS_GDS</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C127863</field>
+        <field name="LCSC Part">C127863</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="LCSC" value="C127863"/>
+      <property name="LCSC Part" value="C127863"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ff94ace-e150-48d4-ae77-4630a99f20ee</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_NMOS_GDS</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C127863</field>
+        <field name="LCSC Part">C127863</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="LCSC" value="C127863"/>
+      <property name="LCSC Part" value="C127863"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e8c30bf-41e6-4b0c-812d-1aa63e1e0d83</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+        <field name="LCSC Part">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC" value="C8545"/>
+      <property name="LCSC Part" value="C8545"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4619ce01-7410-4160-a85d-f588a1f090c9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2.2M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C22938</field>
+        <field name="LCSC Part">C22938</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C22938"/>
+      <property name="LCSC Part" value="C22938"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d8002aa-f28c-4501-9dca-73b884d448fe</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>39</value>
+      <footprint>R2030:R2030</footprint>
+      <fields>
+        <field name="LCSC">C175617</field>
+        <field name="LCSC Part">C175617</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C175617"/>
+      <property name="LCSC Part" value="C175617"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a2956f9-99e9-425b-9ae2-7c6aad4016b9</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="LCSC Part">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="LCSC Part" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d678695b-0ad2-47ee-b12f-f2863d4c4bc1</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="LCSC Part">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="LCSC Part" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da739552-77dd-4fea-a891-f7a7050580e9</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93985dca-7fa1-48d0-91e6-4ae7d9c89aa6</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="LCSC Part">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="LCSC Part" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68370c58-0929-4ddd-983d-4e3e999cc57c</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>0.001</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <fields>
+        <field name="LCSC">C312481</field>
+        <field name="LCSC Part">C312481</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C312481"/>
+      <property name="LCSC Part" value="C312481"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7c06877-46ef-47fc-bab9-5f080a2a6194</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="LCSC Part">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="LCSC Part" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>421cd910-17ac-49f6-80ca-bf4d399ea1c4</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bd9b20e-c268-4269-aa62-46d5bdd2f0bd</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="LCSC Part">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="LCSC Part" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9739e49e-6c7a-45f0-89b5-81bdbfd70032</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25190</field>
+        <field name="LCSC Part">C25190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25190"/>
+      <property name="LCSC Part" value="C25190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36541cd8-b27e-4994-8198-9f37dffae4e2</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25190</field>
+        <field name="LCSC Part">C25190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25190"/>
+      <property name="LCSC Part" value="C25190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9d4444a-335c-4ba7-8da0-933c8f3cd92b</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23186</field>
+        <field name="LCSC Part">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C23186"/>
+      <property name="LCSC Part" value="C23186"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08382731-d937-4ff4-893d-2d1551d4bcea</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23186</field>
+        <field name="LCSC Part">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C23186"/>
+      <property name="LCSC Part" value="C23186"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dcb6cfc-77a8-4fd0-94f2-df0d5dc9c9f3</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="LCSC Part">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="LCSC Part" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fa67b2d-d06b-4510-80a3-bd5484b535db</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23186</field>
+        <field name="LCSC Part">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C23186"/>
+      <property name="LCSC Part" value="C23186"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e5843c8-13d6-43dd-8983-4faaa858b1d6</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="LCSC Part">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="LCSC Part" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0cc77487-8ff7-49b3-870e-8ed6efc128dd</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23186</field>
+        <field name="LCSC Part">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C23186"/>
+      <property name="LCSC Part" value="C23186"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0d18af4-3550-46b1-81b4-cb744cd1b05c</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25803</field>
+        <field name="LCSC Part">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25803"/>
+      <property name="LCSC Part" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c444f1ec-33a3-4e86-86c1-129cadfb8597</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="LCSC Part">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="LCSC Part" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>666c77a0-6dea-4338-8e13-bdf162643873</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="LCSC Part">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="LCSC Part" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5011637a-c0fd-49ff-b33b-509eb12f7eca</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25803</field>
+        <field name="LCSC Part">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25803"/>
+      <property name="LCSC Part" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6a8b242-428a-44c6-b84c-ffae628175a9</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="LCSC Part">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="LCSC Part" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a626c188-dce3-40a6-8c2b-ec76387e66a1</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="LCSC Part">C318884</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="LCSC Part" value="C318884"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1d1ed06-67c2-4356-93c3-6a5b5ae4c20f</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="LCSC Part">C318884</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="LCSC Part" value="C318884"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2780abaf-0b6c-4b51-a170-d350f36af4ca</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="LCSC Part">C318884</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="LCSC Part" value="C318884"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c95e0b0f-312b-4b9d-ac8c-a51c81be13c8</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="LCSC Part">C318884</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="LCSC Part" value="C318884"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f50d8c8-8654-4707-99d5-99d607d07380</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>Thermistor_NTC</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c06a605-55e5-41ce-ba33-31965c4ff399</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab6cc5f0-46de-4172-bee6-56bdcd17efab</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3367113b-a154-4902-9d7d-25ebd3047a8e</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1737407e-6f43-42aa-b7c2-06c456506d25</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>645bf508-56d1-4e10-8df3-9f4a43c69dc9</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97be12cc-2725-4b7f-b553-a5e662112fb3</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>967adf5b-9c6c-44ae-bd7c-8b0005a8d7ea</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb92fbaa-23f4-4715-90cf-db6ca74f0b1b</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f303b0c2-a05f-4356-9b92-85d33d9dd955</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MIC5014</value>
+      <footprint>Package_SO:SOP-8_3.76x4.96mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C219121</field>
+        <field name="LCSC Part">C219121</field>
+      </fields>
+      <libsource lib="MIC5014" part="MIC5014" description=""/>
+      <property name="LCSC" value="C219121"/>
+      <property name="LCSC Part" value="C219121"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31bd1728-c196-462d-ad14-f599d5db018e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>HT75xx-1-SOT89</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14289</field>
+        <field name="LCSC Part">C14289</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="HT75xx-1-SOT89" description="100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"/>
+      <property name="LCSC" value="C14289"/>
+      <property name="LCSC Part" value="C14289"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3974d3db-b2a3-418f-8f21-b9680deb96da</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>W25Q128JVS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C97521</field>
+        <field name="LCSC Part">C97521</field>
+      </fields>
+      <libsource lib="Memory_Flash" part="W25Q128JVS" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="LCSC" value="C97521"/>
+      <property name="LCSC Part" value="C97521"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef543879-e5b6-4d7e-843f-b7ff45a13281</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>INA219AxD</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina219.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C138706</field>
+        <field name="LCSC Part">C138706</field>
+      </fields>
+      <libsource lib="Analog_ADC" part="INA219AxD" description="Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8"/>
+      <property name="LCSC" value="C138706"/>
+      <property name="LCSC Part" value="C138706"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91d988ca-1534-4dcb-bac0-88b223f3e50d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>RP2040</value>
+      <footprint>MCU_RaspberryPi_and_Boards:RP2040-QFN-56</footprint>
+      <fields>
+        <field name="LCSC">C2040</field>
+        <field name="LCSC Part">C2040</field>
+      </fields>
+      <libsource lib="MCU_RaspberryPi_and_Boards" part="RP2040" description=""/>
+      <property name="LCSC" value="C2040"/>
+      <property name="LCSC Part" value="C2040"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03d630c9-f866-41f7-86da-ab7e8338bafc</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>HT75xx-1-SOT89</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14289</field>
+        <field name="LCSC Part">C14289</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="HT75xx-1-SOT89" description="100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"/>
+      <property name="LCSC" value="C14289"/>
+      <property name="LCSC Part" value="C14289"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b89bf3af-94c2-4b36-be15-ba67ec5e144a</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>12M</value>
+      <footprint>Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C90884</field>
+        <field name="LCSC Part">C90884</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="LCSC" value="C90884"/>
+      <property name="LCSC Part" value="C90884"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MotorcycleBatterIsolator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c0c3ddc-255b-4784-9514-cd7856e3c401</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_ADC" part="INA219AxD">
+      <description>Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina219.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA219AxD</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina219.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="SDA" type="bidirectional"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="VS" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="IN-" type="input"/>
+        <pin num="8" name="IN+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Micro_SD_Card_Det">
+      <description>Micro SD Card Socket with card detection pins</description>
+      <docs>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card_Det</field>
+        <field name="Datasheet">https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="DAT3/CD" type="bidirectional"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="DET_B" type="passive"/>
+        <pin num="10" name="DET_A" type="passive"/>
+        <pin num="11" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_RaspberryPi_and_Boards" part="RP2040">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP2040</field>
+        <field name="Footprint">RP2040_minimal:RP2040-QFN-56</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GPIO6" type="bidirectional"/>
+        <pin num="9" name="GPIO7" type="bidirectional"/>
+        <pin num="10" name="IOVDD" type="power_in"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GPIO10" type="bidirectional"/>
+        <pin num="14" name="GPIO11" type="bidirectional"/>
+        <pin num="15" name="GPIO12" type="bidirectional"/>
+        <pin num="16" name="GPIO13" type="bidirectional"/>
+        <pin num="17" name="GPIO14" type="bidirectional"/>
+        <pin num="18" name="GPIO15" type="bidirectional"/>
+        <pin num="19" name="TESTEN" type="passive"/>
+        <pin num="20" name="XIN" type="input"/>
+        <pin num="21" name="XOUT" type="passive"/>
+        <pin num="22" name="IOVDD" type="power_in"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="output"/>
+        <pin num="25" name="SWD" type="bidirectional"/>
+        <pin num="26" name="RUN" type="input"/>
+        <pin num="27" name="GPIO16" type="bidirectional"/>
+        <pin num="28" name="GPIO17" type="bidirectional"/>
+        <pin num="29" name="GPIO18" type="bidirectional"/>
+        <pin num="30" name="GPIO19" type="bidirectional"/>
+        <pin num="31" name="GPIO20" type="bidirectional"/>
+        <pin num="32" name="GPIO21" type="bidirectional"/>
+        <pin num="33" name="IOVDD" type="power_in"/>
+        <pin num="34" name="GPIO22" type="bidirectional"/>
+        <pin num="35" name="GPIO23" type="bidirectional"/>
+        <pin num="36" name="GPIO24" type="bidirectional"/>
+        <pin num="37" name="GPIO25" type="bidirectional"/>
+        <pin num="38" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="39" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="40" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="41" name="GPIO29_ADC3" type="bidirectional"/>
+        <pin num="42" name="IOVDD" type="power_in"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_IN" type="power_in"/>
+        <pin num="45" name="VREG_VOUT" type="power_out"/>
+        <pin num="46" name="USB_DM" type="bidirectional"/>
+        <pin num="47" name="USB_DP" type="bidirectional"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="output"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="QSPI_SS" type="bidirectional"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC5014" part="MIC5014">
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">MIC5014</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="power_in"/>
+        <pin num="2" name="INPUT" type="input"/>
+        <pin num="3" name="SOURCE" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="GATE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q128JVS">
+      <description>128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JVS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="HT75xx-1-SOT89">
+      <description>100mA Low Dropout Voltage Regulator, Fixed Output, SOT89</description>
+      <docs>https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf</docs>
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HT75xx-1-SOT89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+        <field name="Datasheet">https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_ADC">
+      <uri>/usr/share/kicad-nightly/symbols//Analog_ADC.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad-nightly/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad-nightly/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad-nightly/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad-nightly/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="MCU_RaspberryPi_and_Boards">
+      <uri>/home/chris/Code/MotorcycleBatteryIsolator/MotorcycleBatterIsolator/RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.lib</uri>
+    </library>
+    <library logical="MIC5014">
+      <uri>/home/chris/Code/MotorcycleBatteryIsolator/MotorcycleBatterIsolator/MIC5014.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad-nightly/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>/usr/share/kicad-nightly/symbols//Memory_Flash.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad-nightly/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad-nightly/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad-nightly/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V1">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U5" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U5" pin="45" pinfunction="VREG_VOUT" pintype="power_out"/>
+      <node ref="U5" pin="50" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="VS" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U5" pin="10" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U5" pin="22" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U5" pin="33" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U5" pin="42" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U5" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U5" pin="44" pinfunction="VREG_IN" pintype="power_in"/>
+      <node ref="U5" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+      <node ref="U5" pin="49" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="BZ1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="4" name="/BUZZER_CTRL">
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/Battery+">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="6" name="/BatteryVoltage3v3">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U5" pin="40" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/DAT0">
+      <node ref="J2" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+      <node ref="U5" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/DAT1">
+      <node ref="J2" pin="8" pinfunction="DAT1" pintype="bidirectional"/>
+      <node ref="U5" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/DAT2">
+      <node ref="J2" pin="1" pinfunction="DAT2" pintype="bidirectional"/>
+      <node ref="U5" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/DAT3">
+      <node ref="J2" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
+      <node ref="U5" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/GATE_CTRL">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="INPUT" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Motorcycle+">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/MotorcycleVoltage3v3">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U5" pin="39" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/RST">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U5" pin="26" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="15" name="/SCL">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="SCL" pintype="input"/>
+      <node ref="U5" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/SDA">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U5" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/SD_CLK">
+      <node ref="J2" pin="5" pinfunction="CLK" pintype="input"/>
+      <node ref="U5" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/SD_CMD">
+      <node ref="J2" pin="3" pinfunction="CMD" pintype="input"/>
+      <node ref="U5" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/Thermistor">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="TH1" pin="2" pintype="passive"/>
+      <node ref="U5" pin="38" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/USB_D+">
+      <node ref="J5" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J5" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/USB_D-">
+      <node ref="J5" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J5" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/~{USB_BOOT}">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H5" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TH1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="A0" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="19" pinfunction="TESTEN" pintype="passive"/>
+      <node ref="U5" pin="57" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="24" name="Net-(BZ1-+)">
+      <node ref="BZ1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GATE" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(D6-K)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(D9-K)">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J5" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J5" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J5" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="Net-(D11-K)">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J2-VDD)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="36" name="Net-(J3-Pin_2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="25" pinfunction="SWD" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(J3-Pin_4)">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="24" pinfunction="SWCLK" pintype="output"/>
+    </net>
+    <net code="38" name="Net-(J5-CC1)">
+      <node ref="J5" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(J5-CC2)">
+      <node ref="J5" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(JP1-A)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(Q2-S)">
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SOURCE" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(U3-CLK)">
+      <node ref="U3" pin="6" pinfunction="CLK" pintype="input"/>
+      <node ref="U5" pin="52" pinfunction="QSPI_SCLK" pintype="output"/>
+    </net>
+    <net code="43" name="Net-(U3-DI(IO0))">
+      <node ref="U3" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+      <node ref="U5" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="Net-(U3-DO(IO1))">
+      <node ref="U3" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+      <node ref="U5" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Net-(U3-IO2)">
+      <node ref="U3" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+      <node ref="U5" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="Net-(U3-IO3)">
+      <node ref="U3" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+      <node ref="U5" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="Net-(U3-~{CS})">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U5" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="Net-(U5-GPIO8)">
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="Net-(U5-GPIO9)">
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="Net-(U5-GPIO12)">
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="Net-(U5-GPIO13)">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Net-(U5-GPIO14)">
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="Net-(U5-GPIO15)">
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="Net-(U5-GPIO16)">
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="Net-(U5-GPIO17)">
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="Net-(U5-GPIO18)">
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="Net-(U5-GPIO19)">
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="Net-(U5-USB_DM)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U5" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="Net-(U5-USB_DP)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U5" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="Net-(U5-XIN)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U5" pin="20" pinfunction="XIN" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(U5-XOUT)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U5" pin="21" pinfunction="XOUT" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(J2-DET_A)">
+      <node ref="J2" pin="10" pinfunction="DET_A" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(J2-DET_B)">
+      <node ref="J2" pin="9" pinfunction="DET_B" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(J3-Pin_6)">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="65" name="unconnected-(J5-SBU1)">
+      <node ref="J5" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="unconnected-(J5-SBU2)">
+      <node ref="J5" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(U5-GPIO4)">
+      <node ref="U5" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(U5-GPIO5)">
+      <node ref="U5" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(U5-GPIO6)">
+      <node ref="U5" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="unconnected-(U5-GPIO7)">
+      <node ref="U5" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="unconnected-(U5-GPIO29_ADC3)">
+      <node ref="U5" pin="41" pinfunction="GPIO29_ADC3" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

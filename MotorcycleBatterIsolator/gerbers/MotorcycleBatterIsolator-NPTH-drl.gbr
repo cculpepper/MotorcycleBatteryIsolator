@@ -1,0 +1,30 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.99.0-874-g7b84e0a7d9-dirty)*%
+%TF.CreationDate,2022-02-16T19:00:56-05:00*%
+%TF.ProjectId,MotorcycleBatterIsolator,4d6f746f-7263-4796-936c-654261747465,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,NonPlated,1,4,NPTH,Drill*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.99.0-874-g7b84e0a7d9-dirty)) date 2022-02-16 19:00:56*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,0.650000*%
+%TD*%
+%TA.AperFunction,ComponentDrill*%
+%ADD11C,0.990600*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J5*%
+X127360000Y-109100000D03*
+X133140000Y-109100000D03*
+D11*
+%TO.C,J3*%
+X151984000Y-118020000D03*
+X153000000Y-123100000D03*
+X154016000Y-118020000D03*
+M02*
