@@ -1,0 +1,7 @@
+issues.txt
+
+:Author: Chris Culpepper
+:Email: cculpepper1214@gmail.com
+:Date: 2022-03-09 22:33
+
+Add zener diodes
