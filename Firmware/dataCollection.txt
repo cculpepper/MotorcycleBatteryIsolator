@@ -1,0 +1,18 @@
+dataCollection.txt
+
+:Author: Chris Culpepper
+:Email: cculpepper1214@gmail.com
+:Date: 2022-03-09 23:12
+
+Will need to collect:
+flag: uint8_t
+Timestamp since turnon, uint16
+voltage : uint16_t
+average current : uint16_t
+max current: uint16_t
+
+10 bytes per collection
+Collect every quarter second
+40 bps
+2.4kb per minute
+1Mb would fill in 416 minutes... Seems fine.

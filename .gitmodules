@@ -1,3 +1,6 @@
 [submodule "MotorcycleBatterIsolator/RP_Silicon_KiCad"]
 	path = MotorcycleBatterIsolator/RP_Silicon_KiCad
 	url = git@github.com:HeadBoffin/RP_Silicon_KiCad.git
+[submodule "Firmware/pythonLogger/externalLibs/pyb_ina219"]
+	path = Firmware/pythonLogger/externalLibs/pyb_ina219
+	url = git@github.com:chrisb2/pyb_ina219.git

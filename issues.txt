@@ -5,3 +5,7 @@ issues.txt
 :Date: 2022-03-09 22:33
 
 Add zener diodes
+Make it so we can use SPI SD card
+I2C should have pull-ups.....
+move SD card in a lil bit
+Label buttons
