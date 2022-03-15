@@ -4,3 +4,6 @@
 [submodule "Firmware/pythonLogger/externalLibs/pyb_ina219"]
 	path = Firmware/pythonLogger/externalLibs/pyb_ina219
 	url = git@github.com:chrisb2/pyb_ina219.git
+[submodule "Firmware/pythonLogger/externalLibs/micropython-lib"]
+	path = Firmware/pythonLogger/externalLibs/micropython-lib
+	url = https://github.com/micropython/micropython-lib.git

@@ -1,0 +1,12 @@
+notes.txt
+
+:Author: Chris Culpepper
+:Email: cculpepper1214@gmail.com
+:Date: 2022-03-14 00:07
+
+SDA 10
+scl 11
+
+I2C1
+
+i2c = machine.I2C(0, scl=machine.Pin(17), sda=machine.Pin(16))
